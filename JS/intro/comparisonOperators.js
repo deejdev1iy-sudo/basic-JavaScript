@@ -25,3 +25,25 @@ console.log(`val1 = ${val1} !== val2 = ${val2} => Ans ${strictInequality}, its t
 
 let Inequality = val1 != val2
 console.log(`val1 = ${val1} != val2 = ${val2} => Ans ${Inequality}, its type is ${typeof Inequality}`)
+
+//
+let number = 60;
+let number1 = 30;
+
+let str1 = "A"
+let str2 = "C"
+
+console.log(`number = ${number} and number1 = ${number1}`)
+console.log(`str1 = ${str1} and str2 = ${str2}`)
+
+console.log(`number > number1 ${number> number1}`)
+console.log(`str1 > str2 ${str1>str2}`)
+
+console.log(`number>= number1 ${number>= number1}`)
+console.log(`str1>= str2 ${str1>= str2}`)
+
+console.log(`number< number1 ${number< number1}`)
+console.log(`str1< str2 ${str1< str2}`)
+
+console.log(`number<= number1 ${number> number1}`)
+console.log(`str1<= str2 ${str1> str2}`)
