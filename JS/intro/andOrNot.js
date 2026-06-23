@@ -27,3 +27,10 @@ let simplified = sofia_age>18 && sofia_balance>20000
 console.log(`simplified ${simplified}`)
 console.log(`further simplifications is ${sofia_age>18&&sofia_balance>2000}`)
 
+console.log(`Sofia's age is greater than 18 or she has more than 20k in her account ${isGreaterThanAge || hasMoreThanBalance}`)
+
+/* 
+Or atleast one statement has to be true for the whole statement to work
+*/
+console.log(`This is not false = ${!false}`)
+console.log(`This is not true = ${!true}`)
