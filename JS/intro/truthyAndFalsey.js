@@ -18,4 +18,4 @@ let activeUserName = userName1 || userName
 console.log(activeUserName);
 
 let bothUserName = userName || userName1
-console.log(bothUserName)
+console.log(bothUserName) 
