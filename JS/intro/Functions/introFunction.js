@@ -1,9 +1,9 @@
 /*
-Functio allow you to write reusable bits of code
-syntax: function<name: variable name convection
+Functions allow you to write reusable bits of code
+syntax: function<name: variable name convection<parameters>
 
 */
-function timeAlert(){
+/*function timeAlert(){
     const date = new Date();
     console.log(`time stamp: ${date.toISOString()}`);
 }
@@ -23,4 +23,22 @@ areaOfTriangle(30,45);
 //scenario 4
 let base1 = 100;
 let height1 = 50;
-areaOfTriangle(base1, height1);
+areaOfTriangle(base1, height1);*/
+
+function sayTheName(){
+    let firstName = "Jerk";
+    console.log(`First Name ${firstName}`);
+    return "Derry"
+    let secondName = "Sean";
+    console.log(`Second Name ${secondName}`);
+    return 20;
+    let fullNames = `${firstName} ${secondName}`;
+    console.log(`FullNames are ${fullNames}`);
+};
+let myNameValue = sayTheName();
+console.log(`Func returns ${myNameValue} its type ${typeof myNameValue}`);
+
+
+
+
+
