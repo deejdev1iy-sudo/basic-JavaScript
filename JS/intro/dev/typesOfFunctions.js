@@ -34,3 +34,10 @@ let myFunc2 = function(b){
     return b + b;
 };
 console.log(myFunc2(330));
+
+// arrow functions
+const af = (a, f) =>{
+    return a * f;
+};
+console.log(af(20, 30));
+
