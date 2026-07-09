@@ -41,3 +41,12 @@ const car = {
    }
 }
 car.printInfo();
+/*console.log(`Car datatype ${typeof car}`);
+console.log(car);
+console.log('---using console.log(table)---');
+console.table(car);*/
+console.log(`Name is ${car.model} its type is ${typeof car.model}`);
+
+let carModel = 'model';
+console.log(`model is${car[carModel]} its type is ${typeof car[carModel]}`);
+console.log(`car manufacturer is ${car.manufacturer.name2} ${car.name} ${car.model}`)
