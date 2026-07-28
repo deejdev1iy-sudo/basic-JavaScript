@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
+import Navigation from "./AmazonPage/Navigation";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -11,7 +12,7 @@ createRoot(document.getElementById('root')).render(
 
 //React intro to components
 
-function AComponent() {
+/*function AComponent() {
   return null;
 }
 
@@ -54,4 +55,4 @@ createRoot(document.getElementById("root")).render(
     <h1>Understanding react</h1>
     <ParentComponent />
   </StrictMode>,
-);
+);*/
