@@ -4,9 +4,9 @@ function Navigation() {
     return (
         <div>
             <h2>Navigation section</h2>
-            <div>
+            <div className="nav">
                 <img src={logo} width="45px" />
-                <input style={{}} />
+                <input placeholder="Search" />
             </div>
         </div>
     );
