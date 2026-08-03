@@ -2,13 +2,13 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
 
-import ParentOne from './Props';
+import AmazonPage2 from "./AmazonPage/AmazonPage2.0";
  
 import "./index.css";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ParentOne />
+    <AmazonPage2 />
   </StrictMode>,
 );
 
