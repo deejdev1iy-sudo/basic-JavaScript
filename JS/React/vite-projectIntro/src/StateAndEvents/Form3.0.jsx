@@ -1,25 +1,26 @@
 import {useState} from 'react';
 
-function Form() {
+function Form3() {
 
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
+  const [input, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('')
+    
 
-    const nameOnChange = (e) => {
-        setName(e.target.value);
-        
-    };
+ const nameOnChange = (e) => {
+   
+    setName(e.target.value);
+ };
 
-    const onSubmit = () => {
-        console.log("Submit button clicked");
-        console.log("Name is", name);
-        console.log("Email is", email);
-        console.log("Password is", password);
-    };
+ const onSubmit = () => {
+    console.log("Submit button clicked");
+    console.log("name is",name);
+    console.log("email is", email);
+    console.log("password is", password);  
+ };
 
-    return (
-       <div>
+ return(
+    <div>
         <main>
             <div>
                 <label>Name</label>
@@ -28,6 +29,7 @@ function Form() {
                 <input onChange={nameOnChange} />
             </div>
         </main>
+
         <main>
             <div>
                 <label>Email</label>
@@ -36,15 +38,19 @@ function Form() {
                 <input onChange={(e) => setEmail(e.target.value)} />
             </div>
         </main>
+
         <main>
             <div>
                 <label>Password</label>
             </div>
             <div>
-                <input type="password" 
-                onChange={(e) => setPassword(e.target.value)} />
+                <input 
+                 type='password'
+                 onChange={(e) => setPassword(e.target.value)}
+                />
             </div>
         </main>
+
         <main>
             <button onClick={onSubmit}>Submit</button>
         </main>
@@ -54,8 +60,8 @@ function Form() {
             <li>Email:{email}</li>
             <li>Password:{password}</li>
         </ul>
-       </div> 
-    ); 
+     </div>
+    );   
 }
 
-export default Form;
+export default Form3;
