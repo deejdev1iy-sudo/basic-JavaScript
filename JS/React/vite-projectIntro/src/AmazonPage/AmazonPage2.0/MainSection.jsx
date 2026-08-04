@@ -8,14 +8,14 @@ const data = [
     },
 
     {
-      description:
+     description:
       "BOOMIBOO Jump Rope, Adjustable Jump Ropes,Skipping Rope Tangle-Free Rapid Speed with Ball Bearings for Women ",
     amount: 697,
     img: "https://m.media-amazon.com/images/I/71WhY22zw7L._AC_UL480_FMwebp_QL65_.jpg",   
     },
 
     {
-      description:
+     description:
       "SPORTBIT Adjustable Jump Rope for Fitness and Exercise | Fitness and Exercise, Cardio, Boxing, and Weight Loss, Speed Rope, Men",
     amount: 774,
     img: "https://m.media-amazon.com/images/I/71UzJ-BgpFL._AC_UL480_FMwebp_QL65_.jpg",  
@@ -29,7 +29,7 @@ const data = [
     },
 
     {
-        description:
+     description:
       "JAMIEWIN Led Light Up Jump Rope for Kids Glow in the Dark Beaded Jump Rope | Adjustable, Colorful Soft Beaded Segmented",
     amount: 1679,
     img: "https://m.media-amazon.com/images/I/719M6JVne6L._AC_UL480_FMwebp_QL65_.jpg",  
@@ -43,7 +43,7 @@ function MainSection() {
               return(
                 <ItemCard 
                 description={doc.description}
-                amout={doc.amount}
+                amount={doc.amount}
                 img={doc.img}
               />
              );

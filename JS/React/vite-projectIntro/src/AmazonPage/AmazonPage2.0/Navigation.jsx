@@ -1,6 +1,6 @@
 import logo from "./assets/alogo.png";
 
-function Navigation({}) {
+function Navigation({ img }) {
     return (
         <div>
             <h2>Navigation section</h2>
