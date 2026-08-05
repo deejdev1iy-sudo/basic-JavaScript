@@ -2,10 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
 
-import StateAndEvents from "./StateAndEvents/Form3.0";
+import StateAndEvents from "./StateAndEvents/ColorsAndCircles";
  
-import "./index.css";
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <StateAndEvents />
