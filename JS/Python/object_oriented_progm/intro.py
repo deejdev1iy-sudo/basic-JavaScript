@@ -7,6 +7,11 @@ class House:
     owner = ''
     location = ''
 
+    def __init__(self, owner, location):
+        print("Class house created. Initializer called")
+        self.owner = owner
+        self.location = location
+    
     def config(self, owner, location):
         self.owner=owner
         self.location=location
@@ -15,8 +20,8 @@ class House:
         print(self)
         print(self.__dict__)    
 
-Dees_House =  House()
-Dees_House.config(owner='Mooney', location='Tigoni')
+Dees_House = House(owner='Mooney', location='Tigoni')
+
 print(f"Dees House owner, {Dees_House.owner}")
 print(f"Dees House location, {Dees_House.location}")
 print(f"Dees House bedrooms, {Dees_House.bedrooms}")
