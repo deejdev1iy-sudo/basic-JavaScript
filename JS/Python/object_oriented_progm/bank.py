@@ -1,4 +1,7 @@
 class BankAccount:
+    client = 0
+    bank_name = 'Post Bank'
+
     def __init__(self, owner, balance, account_no):
         self.owner = owner
         self._balance = balance
@@ -32,4 +35,6 @@ class BankAccount:
 
 jerry = BankAccount(owner = "Jerry",balance = 200, account_no = '1298965470')
 
-print("Jerry's balance", jerry.balance )                
+print("Jerry's balance", jerry.balance )   
+print("Bank Name", BankAccount.bank_name)      
+print("Clients", BankAccount.client)       
